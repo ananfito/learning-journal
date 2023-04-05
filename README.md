@@ -56,7 +56,7 @@ The last part of my process is to work with the JavaScript. In this project, I u
 
 ## Status
 
-A live version can be viewed at: .
+A live version can be viewed at: https://ananfito.github.io/learning-journal/.
 
 ## Connect
 
