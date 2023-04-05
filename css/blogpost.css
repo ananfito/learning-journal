@@ -1,0 +1,33 @@
+/* STYLESHEET FOR LEARNING JOURNAL: blogpost.hmtl */
+
+.container {
+    margin: 1em auto;
+    max-width: 900px;
+    padding: 0 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.blogpost-content {
+    margin-top: 1.5em;
+}
+
+#blogpost-date {
+    text-transform: uppercase;
+    margin-top: 3em;
+}
+
+.featured-img {
+    margin: 1em auto;
+}
+
+img { 
+    width: 100%;
+    border-radius: 1%;
+}
+
+@media (min-width: 1085px) {
+    .wrapper { 
+        padding: 0 4em;
+    }
+}

@@ -1,0 +1,55 @@
+/* STYLESHEET FOR LEARNING JOURNAL: index.hmtl */
+
+/* HERO SECTION */
+
+.hero {
+    background: white url(../images/hero.jpg) center / cover no-repeat;
+    height: 25em;
+    color: var(--fc-white-smoke);
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 1.5em;
+    text-shadow: 0 0 5px #202020;
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.hero__date {
+    text-transform: uppercase;
+}
+
+.hero__content {
+    margin-top: 0.5em;
+}
+
+/* BLOGPOSTS SECTION */
+
+.posts-section {
+    padding: 0 2em;
+}
+
+.posts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 2em;
+    width: 100%;
+    max-width: 1085px;
+    margin: 2em auto;
+}
+
+.recent-posts {
+    margin: 2em auto 3em;
+    text-align: center;
+}
+
+#btn-view-more {
+    font-family: inherit;
+    color: var(--fc-black);
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    background: none;
+    border-bottom: 1px solid var(--fc-black);
+    cursor: pointer;
+}

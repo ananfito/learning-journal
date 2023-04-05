@@ -1,0 +1,48 @@
+/* STYLESHEET FOR LEARNING JOURNAL: aboutme.hmtl */
+
+main {
+    margin-top: 6.25em;
+}
+
+.container {
+    margin: 1em auto;
+    max-width: 900px;
+    padding: 0 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-content {
+    margin-bottom: 1.5em;
+}
+
+.featured-img {
+    margin: 1em auto;
+}
+
+img { 
+    width: 50%;
+    border-radius: 50%;
+}
+
+@media (min-width: 600px) {
+    .header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 2em;
+    }
+
+    img {
+        width: 80%;
+    }
+
+    .header__content {
+        margin: 0;
+    }
+
+    .main-content { 
+        margin: 0 auto;
+        max-width: 750px;
+    }
+}
