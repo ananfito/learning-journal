@@ -11,7 +11,6 @@ viewMoreBtn.addEventListener('click', function() {
         viewMoreBtn.style.display = "none"      
     } else {
         numberOfBlogPosts += 3
-        console.log(numberOfBlogPosts)
         getBlogPostsArray(numberOfBlogPosts)
         renderBlogPostsGridHtml()
     }
